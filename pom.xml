@@ -10,6 +10,7 @@
     <modules>
         <module>ly-registry</module>
         <module>ly-gateway</module>
+        <module>ly-item</module>
     </modules>
     <packaging>pom</packaging>
 
@@ -51,7 +52,7 @@
             <dependency>
                 <groupId>com.github.pagehelper</groupId>
                 <artifactId>pagehelper-spring-boot-starter</artifactId>
-                <version>${pageHolper.starter.version}</version>
+                <version>${pageHelper.starter.version}</version>
             </dependency>
             <!-- mysq1驱动-->
             <dependency>
